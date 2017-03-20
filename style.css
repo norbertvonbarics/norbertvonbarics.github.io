@@ -1,0 +1,143 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: "starwars";
+    src: url(starjedi.ttf) format("truetype");
+}
+
+body {
+  background-color: rgb(255,255,255);
+}
+
+.headerpic {
+  width: 100%;
+  position: relative;
+  opacity: .8;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 15px 0 0 0;
+}
+
+.myname {
+  position: absolute;
+  font-size: 70px;
+  top: 300px;
+}
+
+.hi {
+  position: absolute;
+  font-size: 30px;
+  top: 280px;
+}
+
+.hi,
+.myname {
+  text-shadow: 10px 10px 30px rgb(80,80,80);
+  color: white;
+  font-family: starwars;
+  text-align: center;
+  margin: 30px 25%;
+}
+
+
+.places {
+  list-style-type: none;
+}
+
+.workplaces {
+  height: 800px;
+  padding: 10px;
+  transition: 1s;
+}
+
+.education {
+  height: 950px;
+  padding: 10px;
+  transition: 1s;
+}
+
+.two017 {
+  font-size: 200%;
+}
+
+
+.workplaces,
+.education {
+  margin: 30px 25%;
+  background-color: rgb(255,255,255);
+  width: 700px;
+  line-height: 2;
+  position: relative;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.workplaces:hover {
+  margin:  30px 45% 0 30px;
+  text-shadow: 20px 20px 20px rgb(170,170,170);
+  transition: 1s;
+}
+
+.education:hover {
+  margin:  30px 0 30px 45%;
+  text-shadow: 20px 20px 20px rgb(170,170,170);
+  transition: 1s;
+}
+
+.footerpic {
+  position: relative;
+  width:100%;
+  opacity: .8;
+}
+
+.saberstext {
+  font-size: 70px;
+  color: #5abe25;
+  text-shadow: 10px 10px 30px rgb(80,80,80);
+  text-align: center;
+  font-family: starwars;
+}
+
+
+.quotebox {
+  font-size: 40px;
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+  padding-left: 50px;
+  text-shadow: none;
+  text-align: center;
+  font-family: starwars;
+}
+
+.quotemark {
+  width: 50px;
+  margin: 20px;
+  font-family: starwars;
+}
+
+.border {
+  border-bottom: 2px solid black;
+  padding-bottom: 30px;
+}
+
+.subheader {
+  font-family: starwars;
+  font-size: 30px;
+  margin: 20px;
+}
+
+span {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.typelist {
+  margin: 0 0 0 50px;
+  font-weight: bold;
+}
